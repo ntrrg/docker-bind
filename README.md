@@ -44,6 +44,9 @@ Working on this project I use/used:
 **Bind9.** *Debian Wiki.* https://wiki.debian.org/Bind9
 
 **Digital Ocean Team.** *An Introduction to DNS Terminology, Components, and Concepts.* https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts
+
 **Justin Ellingwood.** *How To Configure Bind as a Caching or Forwarding DNS Server on Ubuntu 14.04.* https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-caching-or-forwarding-dns-server-on-ubuntu-14-04
+
 **Justin Ellingwood.** *How To Configure Bind as an Authoritative-Only DNS Server on Ubuntu 14.04.* https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-an-authoritative-only-dns-server-on-ubuntu-14-04
+
 **Cathy Almond.** *BIND Logging - some basic recommendations.* https://kb.isc.org/article/AA-01526/0/BIND-Logging-some-basic-recommendations.html
