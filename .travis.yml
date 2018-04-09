@@ -1,0 +1,12 @@
+os: linux
+dist: trusty
+sudo: required
+git:
+  depth: 1
+language: bash
+branches:
+  only:
+  - master
+before_script: docker pull alpine:3.7
+script: bin/build.sh
+after_success: bin/push.sh

@@ -1,0 +1,11 @@
+zone "example.com" {
+  type master;
+  file "/etc/bind/zones/db.default";
+  // allow-transfer { 192.168.0.X; };
+};
+
+zone "0.168.192.in-addr.arpa" {
+  type master;
+  file "/etc/bind/zones/db.default.inv";
+  // allow-transfer { 192.168.0.X; };
+};

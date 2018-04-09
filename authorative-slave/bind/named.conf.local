@@ -1,0 +1,11 @@
+zone "example.com" {
+  type slave;
+  file "db.default";
+  masters { 192.168.0.1; };
+};
+
+zone "0.168.192.in-addr.arpa" {
+  type slave;
+  file "db.default.inv";
+  masters { 192.168.0.1; };
+};
