@@ -1,0 +1,18 @@
+$TTL    3600
+@       IN      SOA     example.com. admin.example.com. (
+                   2018040901           ; Serial
+                         3600           ; Refresh [1h]
+                          600           ; Retry   [10m]
+                        86400           ; Expire  [1d]
+                          600 )         ; Negative Cache TTL [1h]
+
+@       IN      NS      ns1
+; @       IN      NS      ns2
+; @       IN      MX      10 mail
+
+@       IN      A       192.168.0.50
+; mail    IN      A       192.168.0.X
+ns1     IN      A       192.168.0.50
+; ns2     IN      A       192.168.0.X
+
+www     IN      CNAME   @

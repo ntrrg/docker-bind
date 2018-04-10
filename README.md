@@ -7,6 +7,7 @@ This is a set of Bind configurations for specific purposes.
 * [Forward](forward/)
 * [Authorative (master)](authorative-master/)
 * [Authorative (slave)](authorative-slave/)
+* [Private](private/)
 
 ## TODO
 
