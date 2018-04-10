@@ -6,10 +6,10 @@ $TTL    3600
                         86400           ; Expire  [1d]
                           600 )         ; Negative Cache TTL [1h]
 
-@       IN      NS      ns1.example.com.
-; @       IN      NS      ns2.example.com.
+@       IN      NS      ns1
+; @       IN      NS      ns2
 
 50      IN      PTR       @
-; X       IN      PTR       mail.example.com.
-50      IN      PTR       ns.example.com.
-; X       IN      PTR       ns2.example.com.
+; X       IN      PTR       mail
+50      IN      PTR       ns
+; X       IN      PTR       ns2
